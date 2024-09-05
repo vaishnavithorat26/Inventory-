@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D7EBFF;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#inventory-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#inventory-container h3 {
+    margin: 0;
+}
+
+#inventory-container p {
+    margin: 5px 0;
+}
+
+#inventory-container button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#inventory-container button:hover {
+    background-color: #0069d9;
+}
+
+#add-item-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#add-item-form h2 {
+    margin-bottom: 10px;
+}
+
+#add-item-form input, #add-item-form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#add-item-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#add-item-form button:hover {
+    background-color: #0069d9;
+}
+
+#search-bar {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#search-bar input {
+    padding: 5px;
+    width: 80%;
+}
+
+#search-bar button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#search-bar button:hover {
+    background-color: #0069d9;   
+
+}
+
+#sort-options {
+    margin: 20px;
+    text-align: center;
+}
+
+#sort-options button {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#sort-options button:hover {
+    background-color: #0069d9;
+}
+
+#total-value {
+    margin: 20px;
+    text-align: center;
+}

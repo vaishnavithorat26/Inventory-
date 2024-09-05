@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script src="jss.js" type="text/jscript"></script>
+</head>
+
+<body>
+
+ <h1>Inventory Management System</h1>
+    <div id="inventory-container"></div>
+    <div id="add-item-form">
+        <h2>Add Item</h2>
+        <form action="post.php" method="post">
+        <input type="text" id="item-name" placeholder="Item Name">
+        <input type="number" id="quantity" placeholder="Quantity">
+        <input type="number" id="price" placeholder="Price">
+        <select id="category">
+            <option value="electronics">Electronics</option>
+            <option value="apparel">Apparel</option>   
+
+            <option value="grocery">Grocery</option>
+            </select>
+        <button id="add-item-btn">Add Item</button>
+    </div>
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Search by name or category">
+        <button id="search-btn">Search</button>
+    </div>
+    <div id="sort-options">
+        <button id="sort-asc">Sort by Price (Ascending)</button>
+        <button id="sort-desc">Sort by Price (Descending)</button>
+    </div>
+    </form>
+    <div id="total-value">
+        <h2>Total Inventory Value: <span id="total-value-display"></span></h2>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
